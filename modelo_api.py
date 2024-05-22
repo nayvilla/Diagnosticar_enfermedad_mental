@@ -30,8 +30,8 @@ def hacer_prediccion(modelo, datos_de_prueba):
 def obtener_etiqueta_clase(clase):
     etiquetas_clases = {
         0: "Usted no ha sido detectado con ninguna enfermedad de Alzheimer o Parkinson.",
-        1: "Usted ha sido diagnosticado con Alzheimer",
-        2: "Usted ha sido diagnosticado con Parkinson"
+        1: "Usted ha sido diagnosticado con principios de Alzheimer",
+        2: "Usted ha sido diagnosticado con principios de Parkinson"
         # Añade más clases si es necesario
     }
     return etiquetas_clases.get(clase, "Clase Desconocida")
