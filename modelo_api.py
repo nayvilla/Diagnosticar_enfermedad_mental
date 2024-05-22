@@ -58,6 +58,6 @@ async def predecir(datos: DatosDePrueba):
     return response
 
 # Iniciar el servidor cuando se ejecute el script
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("modelo_api:app", host="127.0.0.1", port=8000, reload=True)
+#if __name__ == "__main__":
+#    import uvicorn
+#    uvicorn.run("modelo_api:app", host="127.0.0.1", port=8000, reload=True)
